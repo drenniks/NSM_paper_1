@@ -1,0 +1,20 @@
+# use glob syntax.
+syntax: glob
+
+.ipynb_checkpoints
+*.out
+*.bbl
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+*.aux
+*.blg
+*.dvi
+*.log
+*.ps
+*.bbl
+*.toc
+__pycache__
+*.pyc
+*~
+*.DS_Store
