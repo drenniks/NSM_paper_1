@@ -1,0 +1,6 @@
+#! /bin/bash
+
+pdflatex mnras_template.tex
+bibtex mnras_template.aux
+pdflatex mnras_template.tex
+pdflatex mnras_template.tex

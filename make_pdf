@@ -1,0 +1,6 @@
+#! /bin/bash
+
+pdflatex NSM_mixing.tex
+bibtex NSM_mixing.aux
+pdflatex NSM_mixing.tex
+pdflatex NSM_mixing.tex
