@@ -1,7 +1,6 @@
 # use glob syntax.
 syntax: glob
 
-.ipynb_checkpoints
 *.out
 *.bbl
 *.fdb_latexmk
