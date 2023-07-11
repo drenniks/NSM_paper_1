@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.7.22)  23 MAY 2023 11:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.7.22)  10 JUL 2023 20:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -620,150 +620,146 @@ LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
 
 ]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/sc' will be
-(Font)              scaled to size 9.0pt on input line 135.
+(Font)              scaled to size 9.0pt on input line 127.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
-LaTeX Warning: Reference `IMF' on page 2 undefined on input line 140.
-
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
-(Font)              scaled to size 12.0pt on input line 143.
-[2]
+(Font)              scaled to size 12.0pt on input line 142.
+ [2]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 7.3pt on input line 148.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 5.5pt on input line 148.
-<plots/run_OG_stellar_dist.pdf, id=184, 722.7pt x 578.16pt>
+<plots/run_OG_stellar_dist.pdf, id=190, 722.7pt x 578.16pt>
 File: plots/run_OG_stellar_dist.pdf Graphic file (type pdf)
 <use plots/run_OG_stellar_dist.pdf>
-Package pdftex.def Info: plots/run_OG_stellar_dist.pdf  used on input line 210.
+Package pdftex.def Info: plots/run_OG_stellar_dist.pdf  used on input line 207.
 (pdftex.def)             Requested size: 244.0pt x 195.19556pt.
+<plots/OG_evolution.pdf, id=191, 855.6445pt x 772.70555pt>
+File: plots/OG_evolution.pdf Graphic file (type pdf)
+<use plots/OG_evolution.pdf>
+Package pdftex.def Info: plots/OG_evolution.pdf  used on input line 213.
+(pdftex.def)             Requested size: 508.0pt x 458.75743pt.
  [3
 pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.216 
-      
+l.220 T
+       his halo merges with a neighboring smaller halo that has formed its o...
 pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.216 
-       <./plots/run_OG_stellar_dist.pdf>]
-<plots/OG_evolution.pdf, id=246, 855.6445pt x 772.70555pt>
-File: plots/OG_evolution.pdf Graphic file (type pdf)
-<use plots/OG_evolution.pdf>
-Package pdftex.def Info: plots/OG_evolution.pdf  used on input line 218.
-(pdftex.def)             Requested size: 508.0pt x 458.75743pt.
-<plots/eng_evolution.pdf, id=253, 702.60307pt x 665.53018pt>
-File: plots/eng_evolution.pdf Graphic file (type pdf)
-<use plots/eng_evolution.pdf>
-Package pdftex.def Info: plots/eng_evolution.pdf  used on input line 236.
-(pdftex.def)             Requested size: 244.0pt x 231.12128pt.
-<plots/eng_NSM_evolution.pdf, id=254, 867.24pt x 867.24pt>
-File: plots/eng_NSM_evolution.pdf Graphic file (type pdf)
-<use plots/eng_NSM_evolution.pdf>
-Package pdftex.def Info: plots/eng_NSM_evolution.pdf  used on input line 242.
-(pdftex.def)             Requested size: 508.0pt x 508.00163pt.
-<plots/eng_stellar_dist.pdf, id=259, 722.7pt x 578.16pt>
-File: plots/eng_stellar_dist.pdf Graphic file (type pdf)
-<use plots/eng_stellar_dist.pdf>
-Package pdftex.def Info: plots/eng_stellar_dist.pdf  used on input line 266.
-(pdftex.def)             Requested size: 244.0pt x 195.19556pt.
-<plots/eng_NSM_tot.pdf, id=261, 722.7pt x 578.16pt>
-File: plots/eng_NSM_tot.pdf Graphic file (type pdf)
-<use plots/eng_NSM_tot.pdf>
-Package pdftex.def Info: plots/eng_NSM_tot.pdf  used on input line 274.
-(pdftex.def)             Requested size: 244.0pt x 195.19556pt.
- [4
-pdfTeX warning (ext4): destination with the same identifier (name{table.2}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.280 
-      ]
-<plots/eng_NSM_deltat.pdf, id=278, 722.7pt x 578.16pt>
-File: plots/eng_NSM_deltat.pdf Graphic file (type pdf)
-<use plots/eng_NSM_deltat.pdf>
-Package pdftex.def Info: plots/eng_NSM_deltat.pdf  used on input line 282.
-(pdftex.def)             Requested size: 244.0pt x 195.19556pt.
-
+l.220 T
+       his halo merges with a neighboring smaller halo that has formed its o... <./plots/run_OG_stellar_dist.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [5
+ [4
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.290 
+l.227 
        <./plots/OG_evolution.pdf>]
-<plots/time_evolution.pdf, id=387, 646.81653pt x 665.53018pt>
-File: plots/time_evolution.pdf Graphic file (type pdf)
-<use plots/time_evolution.pdf>
-Package pdftex.def Info: plots/time_evolution.pdf  used on input line 296.
-(pdftex.def)             Requested size: 244.0pt x 251.05586pt.
-<plots/time_NSM_evolution.pdf, id=388, 867.24pt x 867.24pt>
-File: plots/time_NSM_evolution.pdf Graphic file (type pdf)
-<use plots/time_NSM_evolution.pdf>
-Package pdftex.def Info: plots/time_NSM_evolution.pdf  used on input line 302.
-(pdftex.def)             Requested size: 508.0pt x 508.00163pt.
-<plots/time_stellar_dist.pdf, id=393, 722.7pt x 578.16pt>
-File: plots/time_stellar_dist.pdf Graphic file (type pdf)
-<use plots/time_stellar_dist.pdf>
-Package pdftex.def Info: plots/time_stellar_dist.pdf  used on input line 326.
+<plots/eng_evolution.pdf, id=363, 702.60307pt x 665.53018pt>
+File: plots/eng_evolution.pdf Graphic file (type pdf)
+<use plots/eng_evolution.pdf>
+Package pdftex.def Info: plots/eng_evolution.pdf  used on input line 229.
+(pdftex.def)             Requested size: 244.0pt x 231.12128pt.
+<plots/eng_NSM_evolution.pdf, id=366, 770.01863pt x 678.32933pt>
+File: plots/eng_NSM_evolution.pdf Graphic file (type pdf)
+<use plots/eng_NSM_evolution.pdf>
+Package pdftex.def Info: plots/eng_NSM_evolution.pdf  used on input line 236.
+(pdftex.def)             Requested size: 508.0pt x 447.51244pt.
+<plots/eng_stellar_dist.pdf, id=375, 722.7pt x 578.16pt>
+File: plots/eng_stellar_dist.pdf Graphic file (type pdf)
+<use plots/eng_stellar_dist.pdf>
+Package pdftex.def Info: plots/eng_stellar_dist.pdf  used on input line 263.
 (pdftex.def)             Requested size: 244.0pt x 195.19556pt.
-<plots/time_NSM_tot.pdf, id=395, 722.7pt x 578.16pt>
-File: plots/time_NSM_tot.pdf Graphic file (type pdf)
-<use plots/time_NSM_tot.pdf>
-Package pdftex.def Info: plots/time_NSM_tot.pdf  used on input line 335.
-(pdftex.def)             Requested size: 244.0pt x 195.19556pt.
- [6
+ [5
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.338 \end{figure}
-                  
-pdfTeX warning (ext4): destination with the same identifier (name{table.3}) has been already used, duplicate ignored
+l.269 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{table.2}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.338 \end{figure}
-                   <./plots/eng_evolution.pdf>]
+l.269 
+       <./plots/eng_evolution.pdf>]
+<plots/eng_NSM_tot.pdf, id=438, 722.7pt x 578.16pt>
+File: plots/eng_NSM_tot.pdf Graphic file (type pdf)
+<use plots/eng_NSM_tot.pdf>
+Package pdftex.def Info: plots/eng_NSM_tot.pdf  used on input line 271.
+(pdftex.def)             Requested size: 244.0pt x 195.19556pt.
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
+<plots/eng_NSM_deltat.pdf, id=441, 722.7pt x 578.16pt>
+File: plots/eng_NSM_deltat.pdf Graphic file (type pdf)
+<use plots/eng_NSM_deltat.pdf>
+Package pdftex.def Info: plots/eng_NSM_deltat.pdf  used on input line 279.
+(pdftex.def)             Requested size: 244.0pt x 195.19556pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [7
+ [6
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.341 
+l.287 
        <./plots/eng_NSM_evolution.pdf>]
-<plots/time_NSM_deltat.pdf, id=557, 722.7pt x 578.16pt>
-File: plots/time_NSM_deltat.pdf Graphic file (type pdf)
-<use plots/time_NSM_deltat.pdf>
-Package pdftex.def Info: plots/time_NSM_deltat.pdf  used on input line 344.
-(pdftex.def)             Requested size: 244.0pt x 195.19556pt.
- [8
+<plots/time_evolution.pdf, id=539, 646.81653pt x 665.53018pt>
+File: plots/time_evolution.pdf Graphic file (type pdf)
+<use plots/time_evolution.pdf>
+Package pdftex.def Info: plots/time_evolution.pdf  used on input line 289.
+(pdftex.def)             Requested size: 244.0pt x 251.05586pt.
+ [7
 pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.354 
+l.295 
       
 pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.354 
+l.295 
       
 pdfTeX warning (ext4): destination with the same identifier (name{figure.7}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.354 
-      
+l.295 
+       <./plots/eng_stellar_dist.pdf> <./plots/eng_NSM_tot.pdf> <./plots/eng_NSM_deltat.pdf>]
+<plots/time_NSM_evolution.pdf, id=701, 770.01863pt x 678.96288pt>
+File: plots/time_NSM_evolution.pdf Graphic file (type pdf)
+<use plots/time_NSM_evolution.pdf>
+Package pdftex.def Info: plots/time_NSM_evolution.pdf  used on input line 297.
+(pdftex.def)             Requested size: 508.0pt x 447.9304pt.
+<plots/time_stellar_dist.pdf, id=707, 722.7pt x 578.16pt>
+File: plots/time_stellar_dist.pdf Graphic file (type pdf)
+<use plots/time_stellar_dist.pdf>
+Package pdftex.def Info: plots/time_stellar_dist.pdf  used on input line 323.
+(pdftex.def)             Requested size: 244.0pt x 195.19556pt.
+<plots/time_NSM_tot.pdf, id=709, 722.7pt x 578.16pt>
+File: plots/time_NSM_tot.pdf Graphic file (type pdf)
+<use plots/time_NSM_tot.pdf>
+Package pdftex.def Info: plots/time_NSM_tot.pdf  used on input line 332.
+(pdftex.def)             Requested size: 244.0pt x 195.19556pt.
+<plots/time_NSM_deltat.pdf, id=711, 722.7pt x 578.16pt>
+File: plots/time_NSM_deltat.pdf Graphic file (type pdf)
+<use plots/time_NSM_deltat.pdf>
+Package pdftex.def Info: plots/time_NSM_deltat.pdf  used on input line 341.
+(pdftex.def)             Requested size: 244.0pt x 195.19556pt.
+ [8
 pdfTeX warning (ext4): destination with the same identifier (name{figure.8}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.354 
-       <./plots/eng_stellar_dist.pdf> <./plots/eng_NSM_tot.pdf> <./plots/eng_NSM_deltat.pdf> <./plots/time_evolution.pdf>]
+l.351 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{table.3}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.351 
+       <./plots/time_evolution.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -773,24 +769,24 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 pdfTeX warning (ext4): destination with the same identifier (name{figure.9}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.356 
-       <./plots/time_NSM_evolution.pdf>] [10
+l.355 	
+        <./plots/time_NSM_evolution.pdf>] [10
 pdfTeX warning (ext4): destination with the same identifier (name{figure.10}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.369 	\item T
-              he shorter time delays still lead to a high mass fraction of r...
+l.369 \end{itemize}
+                   
 pdfTeX warning (ext4): destination with the same identifier (name{figure.11}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.369 	\item T
-              he shorter time delays still lead to a high mass fraction of r...
+l.369 \end{itemize}
+                   
 pdfTeX warning (ext4): destination with the same identifier (name{figure.12}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.369 	\item T
-              he shorter time delays still lead to a high mass fraction of r... <./plots/time_stellar_dist.pdf> <./plots/time_NSM_tot.pdf> <./plots/time_NSM_deltat.pdf>]
-Underfull \hbox (badness 1454) in paragraph at lines 378--379
+l.369 \end{itemize}
+                    <./plots/time_stellar_dist.pdf> <./plots/time_NSM_tot.pdf> <./plots/time_NSM_deltat.pdf>]
+Underfull \hbox (badness 1454) in paragraph at lines 375--376
 \T1/ntxtlf/m/n/9 DS is sup-ported by the NASA FI-NESST fel-low-ship award
  []
 
@@ -802,17 +798,14 @@ LaTeX Info: Redefining \VAN on input line 1.
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.5pt have occurred.
 
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `NSM_mixing.out' has not changed.
 (rerunfilecheck)             Checksum: 089D3A9C2B316FE46643A60F156CC2DD;1824.
  ) 
 Here is how much of TeX's memory you used:
- 15263 strings out of 478023
- 228129 string characters out of 5838675
- 542591 words of memory out of 5000000
- 33359 multiletter control sequences out of 15000+600000
+ 15272 strings out of 478023
+ 228242 string characters out of 5838675
+ 534416 words of memory out of 5000000
+ 33366 multiletter control sequences out of 15000+600000
  569765 words of font info for 161 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  87i,15n,91p,2640b,424s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -820,10 +813,10 @@ Here is how much of TeX's memory you used:
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist, replaced by a fixed one
 
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf-pc.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/newtx/NewTXMI.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/newtx/NewTXMI5.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/newtx/NewTXMI7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/newtx/txmiaX.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/newtx/txsys.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/newtx/ztmb.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/newtx/ztmr.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/newtx/ztmri.pfb>
-Output written on NSM_mixing.pdf (11 pages, 804591 bytes).
+Output written on NSM_mixing.pdf (11 pages, 804392 bytes).
 PDF statistics:
- 1150 PDF objects out of 1200 (max. 8388607)
- 553 compressed objects within 6 object streams
- 75 named destinations out of 1000 (max. 500000)
+ 1152 PDF objects out of 1200 (max. 8388607)
+ 562 compressed objects within 6 object streams
+ 77 named destinations out of 1000 (max. 500000)
  149 words of extra memory for PDF output out of 10000 (max. 10000000)
 

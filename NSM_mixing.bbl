@@ -169,6 +169,15 @@ Hunter J.~D.,  2007, \mn@doi [Computing In Science \& Engineering]
 {Skinner} D.,  {Wise} J.~H.,  2020, \mn@doi [\mnras] {10.1093/mnras/staa139},
   \href {https://ui.adsabs.harvard.edu/abs/2020MNRAS.492.4386S} {492, 4386}
 
+\bibitem[\protect\citeauthoryear{Smith \& Lang}{Smith \& Lang}{2019}]{ytree}
+Smith B.~D.,  Lang M.,  2019, \mn@doi [Journal of Open Source Software]
+  {10.21105/joss.01881}, 4, 1881
+
+\bibitem[\protect\citeauthoryear{{Smith} et~al.,}{{Smith}
+  et~al.}{2017}]{grackle}
+{Smith} B.~D.,  et~al., 2017, \mn@doi [\mnras] {10.1093/mnras/stw3291}, \href
+  {https://ui.adsabs.harvard.edu/abs/2017MNRAS.466.2217S} {466, 2217}
+
 \bibitem[\protect\citeauthoryear{{Tarumi}, {Hotokezaka}  \&
   {Beniamini}}{{Tarumi} et~al.}{2021}]{Tarumi21}
 {Tarumi} Y.,  {Hotokezaka} K.,   {Beniamini} P.,  2021, \mn@doi [\apjl]
