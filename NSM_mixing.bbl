@@ -86,6 +86,12 @@
 {Drout} M.~R.,  et~al., 2017, \mn@doi [Science] {10.1126/science.aaq0049},
   \href {https://ui.adsabs.harvard.edu/abs/2017Sci...358.1570D} {358, 1570}
 
+\bibitem[\protect\citeauthoryear{{Frebel} \& {Ji}}{{Frebel} \&
+  {Ji}}{2023}]{Frebel23}
+{Frebel} A.,  {Ji} A.~P.,  2023, \mn@doi [arXiv e-prints]
+  {10.48550/arXiv.2302.09188}, \href
+  {https://ui.adsabs.harvard.edu/abs/2023arXiv230209188F} {p. arXiv:2302.09188}
+
 \bibitem[\protect\citeauthoryear{{Goldstein} et~al.,}{{Goldstein}
   et~al.}{2017}]{Goldstein17}
 {Goldstein} A.,  et~al., 2017, \mn@doi [\apjl] {10.3847/2041-8213/aa8f41},
@@ -107,6 +113,12 @@
   {10.1088/0004-637X/724/1/341}, \href
   {https://ui.adsabs.harvard.edu/abs/2010ApJ...724..341H} {724, 341}
 
+\bibitem[\protect\citeauthoryear{{Hinkel}, {Young}  \& {Wheeler}}{{Hinkel}
+  et~al.}{2022}]{Hinkel22}
+{Hinkel} N.~R.,  {Young} P.~A.,   {Wheeler} Caleb~H. I.,  2022, \mn@doi [\aj]
+  {10.3847/1538-3881/ac9bfa}, \href
+  {https://ui.adsabs.harvard.edu/abs/2022AJ....164..256H} {164, 256}
+
 \bibitem[\protect\citeauthoryear{Hunter}{Hunter}{2007}]{matplotlib}
 Hunter J.~D.,  2007, \mn@doi [Computing In Science \& Engineering]
   {10.1109/MCSE.2007.55}, 9, 90
@@ -127,6 +139,12 @@ Hunter J.~D.,  2007, \mn@doi [Computing In Science \& Engineering]
   {Mathews} G.~J.,  2019, \mn@doi [Progress in Particle and Nuclear Physics]
   {10.1016/j.ppnp.2019.02.008}, \href
   {https://ui.adsabs.harvard.edu/abs/2019PrPNP.107..109K} {107, 109}
+
+\bibitem[\protect\citeauthoryear{{Lodders}, {Palme}  \& {Gail}}{{Lodders}
+  et~al.}{2009}]{Lodders09}
+{Lodders} K.,  {Palme} H.,   {Gail} H.~P.,  2009, \mn@doi [Landolt
+  B\&ouml;rnstein] {10.1007/978-3-540-88055-4_34}, \href
+  {https://ui.adsabs.harvard.edu/abs/2009LanB...4B..712L} {4B, 712}
 
 \bibitem[\protect\citeauthoryear{{Nishimura}, {Takiwaki}  \&
   {Thielemann}}{{Nishimura} et~al.}{2015}]{Nishimura15}
@@ -154,6 +172,11 @@ Hunter J.~D.,  2007, \mn@doi [Computing In Science \& Engineering]
   et~al.}{2016}]{Roederer16}
 {Roederer} I.~U.,  et~al., 2016, \mn@doi [\aj] {10.3847/0004-6256/151/3/82},
   \href {https://ui.adsabs.harvard.edu/abs/2016AJ....151...82R} {151, 82}
+
+\bibitem[\protect\citeauthoryear{{Roederer} et~al.,}{{Roederer}
+  et~al.}{2022}]{Roederer22}
+{Roederer} I.~U.,  et~al., 2022, \mn@doi [\apjs] {10.3847/1538-4365/ac5cbc},
+  \href {https://ui.adsabs.harvard.edu/abs/2022ApJS..260...27R} {260, 27}
 
 \bibitem[\protect\citeauthoryear{{Schaerer}}{{Schaerer}}{2002}]{Schaerer02}
 {Schaerer} D.,  2002, \mn@doi [\aap] {10.1051/0004-6361:20011619}, \href
