@@ -7,6 +7,7 @@
 \usepackage{listings,color}
 \usepackage[dvipsnames]{xcolor}
 \usepackage{tcolorbox}
+\usepackage{natbib}
 
 \input macros.tex
 
@@ -33,42 +34,109 @@ boldfaced the added text and crossed out the deleted text.
     1)      The authors assume that neutron star binaries merge after 10, 30, or 100 Myr. These time scales are too short (Belczynski et al. 2002, ApJ, 572, 407; Kinugawa et al. 2014, MNRAS, 442, 2963). What kind of binary parameters did you assume? Is it reasonable? Without reasonable explanations about the short merger timescales, I cannot believe that NSMs happened in the early Universe.
 \end{tcolorbox}
 
+We agree that the time scales we have explored are very short, but we are exploring a very particular scenario, and the delay times that we have chosen are not yet out of the realm of possibilities. \citet{Hirai15} quote the lower limit of a delay time to be $~10$ Myr, and that delay times of $~100$ Myr can explain the scatter in [Eu/Fe] for metal-poor stars in the galactic halo. 
+
+\citet{Frebel23} also summarize the current state of discussion around the merger times for NSMs. They quote the minimum delay time to be between 10-100 Myr based on work done by other authors, and that there is some discussion that even shorter delay times of about 1 Myr could be possible.
+
+For Reticulum II (Ret II) in particular, a long delay time of a couple Gyr is not compatible with the r-process enhanced stars. \citet{Simon23} provide an explanation for the timing requirements for r-process enrichment in Ret II, and they find that a NSM must occur with 500 Myr in order to reproduce the abundances and allow for thorough mixing. This requires the NSM to occur well before the formation of second generation stars.
+
+Enzo does not have the capability to follow binary system formation. We simply do not have the resolution to accomplish such a task. Because of this, our NSM is an extremely ideal scenario, where we do not have to pick binary system parameters. The question of how this binary system formed in the first place is outside of the scope of this paper and would require significant contributions to the code base in order for that to happen in our simulations. We are simply assuming that there could exist a possibility where this type of binary system could form and then go on to merge together. Based on work cited above, we are comfortable with the delay times we have chosen, and they could add further information about the possibility of these short time delays moving forward.
+
+We are certainly simulating a particular scenario. We are operating under the assumption that if a NSM did occur in a galaxy like Ret II, then it would have to happen fairly early in order to allow for enough time to pass for thorough mixing to take place. We would also like to remind the referee that this is a "proof-of-concept" test of our model to see how the NSM may affect the second generation of stars. We aren't trying to exactly reproduce Ret II, but we want to begin to understand what the effects of a NSM of this type would look like early in the history of a galaxy. We would like to let the referee know that there is a follow up plan to this simulation, with more papers to come.
+
+\textbf{(DS to-do)} We have added this explanation to SECTION.
+
+\textbf{DS Notes:}
+
+https://arxiv.org/pdf/2212.00810.pdf
+\begin{itemize}
+    \item for reticulum II, longer delay times (~couple Gyr) are incompatible with r-process stars in Ret II
+    \item must merge within about 500 Myr for Ret II
+    \item there is uniformity among the r-process enriched stars, indicating that thorough mixing needs to take place before star formation can occur. To allow for enough time, the NSM has to happen relatively early in the star formation history of ret II
+\end{itemize}
+
+https://arxiv.org/pdf/2302.09188.pdf
+\begin{itemize}
+    \item minimum delay time of 10-100 Myr
+    \item there is some argument that merging could happen on the order of 1 Myr
+    \item still lots of debate around the specifics
+\end{itemize}
 
 
 \begin{tcolorbox}[colback={lightgray}]
     2)      NS binaries can form even in Population I/II stars, particularly in dense star clusters. Why do you consider NS binaries originated from Population III stars. The binary fraction and ISM of population III stars are still under debate. The authors should describe the motivation of NSM originating from population III stars.
 \end{tcolorbox}
 
+The motivation of this work came from the results of the r-process enhanced stars in Ret II. For these stars, a NSM occurring early in the star formation history of the galaxy can explain the enhancement. We were interested in the possibility of the NSM occurring early enough in the history of the galaxy to be a descendant of Pop III stars. We ask this question near the end of the Introduction: "... what happens if a single NSM, produced from the remnants of Pop III stars, occurs within a galaxy in the early universe?" This is the question that we are exploring in this work.
+
+We do not consider any binary system formation for Pop II stars in this work, mainly because Enzo does not currently have the capability to model binary systems for these stars. To keep things simple, we are only considering the binary system formation, and subsequent merging, of the NSs. This would be an interesting thing to explore in the future however.
+
+\textbf{(DS to-do)} We have made our motivation more clear in SECTION.
+
 \begin{tcolorbox}[colback={lightgray}]
     3)      The current abstract consists of a general introduction and expectable trends. The authors should rewrite the text of the abstract significantly with solid conclusions and values taken from the detailed simulations.
 \end{tcolorbox}
+
+\textbf{DS Notes:}
+Replace two general sentences with these more specific ones.
+\begin{itemize}
+    \item A high explosion energy leads to a Pop II mass fraction of 72\% being highly enhanced with r-process elements, while a lower explosion energy leads to a Pop II mass fraction of 80\% being r-process enhanced, but only 14\% being highly enhanced.
+    \item When the NSM has a short delay time of 10 Myr, only 5\% of the mass fraction of Pop II stars is highly r-process enhanced, while 64\% of the mass fraction of Pop II stars is highly r-process enhanced for the longest delay time of 100 Myr. 
+\end{itemize}
 
 \begin{tcolorbox}[colback={lightgray}]
     4)      It looks like one of the main points of the manuscript is revealing the impacts of NSM on the physical properties of the first galaxies with Pop II star formation. An NSM is an additional feedback source at the point of the first galaxy formation. I think the impact of NSM is degenerated with other factors of Pop III stars like the number of stars in mini-haloes, star formation efficiency, and initial mass function. For example, if three Pop III stars form in mini-halos (e.g., Sugimura et al. 2020, ApJ, 892, L14; Sugimura et al. 2023), they are likely to give similar feedback. The authors should add a discussion about the uniqueness of NSMs at the point of the first galaxy formation.
 \end{tcolorbox}
 
+\textbf{DS Notes:}
+\begin{itemize}
+    \item I feel like the main thing that makes NSM unique is their production of r-process elements (along with the effects of a kilonova, but maybe we don't mention that?). One of the main points is that NSMs can produce r-process enhanced stars, but also that the exact feedback mechanisms that occur appear to drastically affect results (last bullet point in conclusions). So we cannot pick apart the impacts of NSM on the physical properties of the first galaxies with Pop II star formation -- this was not something that we were trying to address really at all?
+\end{itemize}
+
 \begin{tcolorbox}[colback={lightgray}] 
     5)      Considerations about the simulation results are not enough. For example, in Sec. 3.2, the authors say, “The Pop II stellar mass follows a relatively similar trend in each run, but the NSM runs end with larger Pop II stellar masses as compared to the original run.” Why do NSMs induce the larger Pop II stellar masses? Please describe the physical reasons because it is complicated due to a combination of more metal enrichment and gas blowout.
 \end{tcolorbox}
+
+\textbf{DS Notes:}
+\begin{itemize}
+    \item Yes, this is a good question and one that I thought we made pretty clear. The answer to this is "I don't know". There are a lot of details to pick through in these simulations, and making comparisons across the simulations is a complicated task. Because we don't have a large sample size to study, it's hard to say anything conclusive about how the NSM might affect the Pop II stellar masses, and whether other star formation and feedback is affecting it as well. This is a question we are continuing to explore. In this paper, we are simply reporting on the results.
+    \item We did find that NSM runs have higher cold gas mass fractions at late times. This could be one possible explanation for this.
+\end{itemize}
 
 \begin{tcolorbox}[colback={lightgray}]
     Minor comments:
     6)      Is Sec. 3.1. about the original (without NSM) run? It would be better to write it.
 \end{tcolorbox}
 
+\textbf{(DS to-do)} Yes, Sec. 3.1 is about the original run. We have changed this section title to reflect that.
+
 \begin{tcolorbox}[colback={lightgray}]
     7)      Figure 6 shows “P3 metallicity fraction”. What is the P3 metallicity?
 \end{tcolorbox}
+
+\textbf{(DS to-do)}
 
 \begin{tcolorbox}[colback={lightgray}]
     8)      Purple lines in Figures 3, 5, and 8 show “Hyp.”. What is the meaning of Hyp.?
 \end{tcolorbox}
 
+\textbf{(DS to-do)} We apologize for that confusion, we have change that to say "OG" in the plots. Hyp. stood for "hypernova" which is how the original Pop III star ends its life.
+
 \begin{tcolorbox}[colback={lightgray}]
     9)      The authors show the coexistence of Pop II and III stars in the first galaxies. Recent theoretical studies showed similar results (Riaz et al. 2022, ApJL, 937, L6; Yajima et al., arXiv2211.12970). It would be good to discuss the mass fraction and distribution of Pop III stars in the first galaxies with the previous works. 
 \end{tcolorbox}
 
+\textbf{DS Notes:}
+\begin{itemize}
+    \item I think I will need to grab the masses of Pop III stars in the halo, but I can do this pretty quickly.
+    \item Riaz+22: compare with their Figure 1, 2, and 3
+    \item Yajima+23: compare with their Figure 2, 4, third bullet point in their conclusion
+\end{itemize}
+
 We again thank the referee for the insightful review that helped
 improve our paper.
+
+\bibliographystyle{plainnat}
+\bibliography{drenniks}
 
 \end{document}
