@@ -108,19 +108,19 @@ Replace two general sentences with these more specific ones.
     6)      Is Sec. 3.1. about the original (without NSM) run? It would be better to write it.
 \end{tcolorbox}
 
-\textbf{(DS to-do)} Yes, Sec. 3.1 is about the original run. We have changed this section title to reflect that.
+Yes, Sec. 3.1 is about the original run. We have changed this section title and added a bit of text to reflect that.
 
 \begin{tcolorbox}[colback={lightgray}]
     7)      Figure 6 shows “P3 metallicity fraction”. What is the P3 metallicity?
 \end{tcolorbox}
 
-\textbf{(DS to-do)}
+We apologize for this, the caption was correct, but the label in the plot was wrong. The label should have read "Total Metallicity Fraction" instead of "P3 Metallicity Fraction". The total metallicity is the metallicity of the stars from both Pop II and Pop III sources. We have fixed this plot.
 
 \begin{tcolorbox}[colback={lightgray}]
     8)      Purple lines in Figures 3, 5, and 8 show “Hyp.”. What is the meaning of Hyp.?
 \end{tcolorbox}
 
-\textbf{(DS to-do)} We apologize for that confusion, we have change that to say "OG" in the plots. Hyp. stood for "hypernova" which is how the original Pop III star ends its life.
+We apologize for that confusion. "Hyp." stood for "hypernova" which is how the original Pop III star ends its life. To keep things simple, we have changed that in the plots to say "OG" to make it clear that those lines correspond to the original run with no NSM. 
 
 \begin{tcolorbox}[colback={lightgray}]
     9)      The authors show the coexistence of Pop II and III stars in the first galaxies. Recent theoretical studies showed similar results (Riaz et al. 2022, ApJL, 937, L6; Yajima et al., arXiv2211.12970). It would be good to discuss the mass fraction and distribution of Pop III stars in the first galaxies with the previous works. 
@@ -128,9 +128,16 @@ Replace two general sentences with these more specific ones.
 
 \textbf{DS Notes:}
 \begin{itemize}
-    \item I think I will need to grab the masses of Pop III stars in the halo, but I can do this pretty quickly.
-    \item Riaz+22: compare with their Figure 1, 2, and 3
-    \item Yajima+23: compare with their Figure 2, 4, third bullet point in their conclusion
+    \item Riaz+22: compare with their Figure 1 and 3
+    \begin{itemize}
+        \item Re. Figure 1: Looking at the redshift range between 10 and 20, and comparing with their halo masses between $10^7 - 10^9 M_\odot$ since this is the closest out halo gets to by the end of the simulation, we do see much higher stellar masses compared to them. For example, at z = 10, they see $10^3 - 10^5 M_\odot$ for Pop II stars and $10^1 - 10^2 M_\odot$ for Pop III stars. For us, at z = 10 we see a few $\times 10^4 M_\odot$ for Pop II stars (which aligns with their results), and $~10^{3} M_{\odot}$ for Pop III stars, which is certainly larger than Riaz+22. However, they do give some generous ranges for the Pop II and Pop III stellar masses, so our results don't seem to be completely different from what they are saying.
+        \item Re. Figure 3: This figure is very similar to the one from Yajima+23. We do see similar ratios overall.
+    \end{itemize}
+    \item Yajima+23: compare with their Figure 4, third bullet point in their conclusion
+    \begin{itemize}
+        \item Re: Figure 4. I have made this same plot for our work. We have slightly lower values compared to Yajima. For all variation runs, for a stellar mass of $~10^{4.5} M_\odot$, we see a Pop III mass ratio of about $~10^{-1.5}$, as compared to Yajima's results of $~10^{-1}$. They have considerable scatter for their z = 10, 11, and 12 data. Certainly we see the same trend as them, as stellar mass increases, the ratio of Pop III stellar mass to total stellar mass decreases. We do see similar values at our maximum stellar mass value of $~10^{5.5} M_\odot$ having a mass ratio of $~10^{-2.25}$. An important thing to consider in this comparison is the much higher halo mass of their main halos. They look at a halo that grows to $5 \times 10^{11} M_\odot$ by z = 9.5, whereas our halo gets to $~2 \times 10^{8} M_\odot$ at z = 10.
+        \item Based on these results, we certainly agree with their third bullet point. In general, the mass fraction of Pop III stars is less than 0.01 for halos with stellar masses $> 10^{4} M_\odot$ 
+    \end{itemize}
 \end{itemize}
 
 We again thank the referee for the insightful review that helped
