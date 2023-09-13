@@ -44,7 +44,7 @@ Enzo does not have the capability to follow binary system formation. We simply d
 
 We are certainly simulating a particular scenario. We are operating under the assumption that if a NSM did occur in a galaxy like Ret II, then it would have to happen fairly early in order to allow for enough time to pass for thorough mixing to take place. We would also like to remind the referee that this is a ``proof-of-concept'' test of our model to investigate how the NSM may affect the second generation of stars. We are not trying to exactly reproduce Ret II, but we want to begin to understand what are the effects of a NSM of this type early in the history of a galaxy. We would like to let the referee know that there is a follow-up plan to this simulation, with more papers to come.
 
-\textbf{(DS to-do)} We have added this explanation to SECTION.
+We have added a brief explanation to the subsection ``Neutron star merger model and simulation suite''.
 
 \begin{tcolorbox}[colback={lightgray}]
     2)      NS binaries can form even in Population I/II stars, particularly in dense star clusters. Why do you consider NS binaries originated from Population III stars. The binary fraction and ISM of population III stars are still under debate. The authors should describe the motivation of NSM originating from population III stars.
@@ -54,7 +54,7 @@ The motivation of this work came from the results of the r-process enhanced star
 
 We do not consider any binary system formation for Pop II stars in this work to isolate the effects from a NSM from a Pop III system alone. We are thus only considering the binary system formation, and subsequent merging, of the NSs. This would be an interesting thing to explore in the future however.
 
-\textbf{(DS to-do)} We have made our motivation more clear in SECTION.
+We have added a clarifying sentence in the subsection ``Pop III and Pop II star formation and feedback'' to make it clear that we are not including Pop III and Pop II binary systems. We have also added language at the top of the subsection ``Neutron star merger model and simulation suite'' to make it clear about what we are studying.
 
 \begin{tcolorbox}[colback={lightgray}]
     3)      The current abstract consists of a general introduction and expectable trends. The authors should rewrite the text of the abstract significantly with solid conclusions and values taken from the detailed simulations.
@@ -62,26 +62,13 @@ We do not consider any binary system formation for Pop II stars in this work to 
 
 Thank you for this recommendation. We have rewritten some of the abstract to include numerical values. 
 
-\textbf{DS Notes:}
-Replace two general sentences with these more specific ones.
-\begin{itemize}
-    \item A high explosion energy leads to a Pop II mass fraction of 72\% being highly enhanced with r-process elements, while a lower explosion energy leads to a Pop II mass fraction of 80\% being r-process enhanced, but only 14\% being highly enhanced.
-    \item When the NSM has a short delay time of 10 Myr, only 5\% of the mass fraction of Pop II stars is highly r-process enhanced, while 64\% of the mass fraction of Pop II stars is highly r-process enhanced for the longest delay time of 100 Myr. 
-\end{itemize}
-
 \begin{tcolorbox}[colback={lightgray}]
     4)      It looks like one of the main points of the manuscript is revealing the impacts of NSM on the physical properties of the first galaxies with Pop II star formation. An NSM is an additional feedback source at the point of the first galaxy formation. I think the impact of NSM is degenerated with other factors of Pop III stars like the number of stars in mini-haloes, star formation efficiency, and initial mass function. For example, if three Pop III stars form in mini-halos (e.g., Sugimura et al. 2020, ApJ, 892, L14; Sugimura et al. 2023), they are likely to give similar feedback. The authors should add a discussion about the uniqueness of NSMs at the point of the first galaxy formation.
 \end{tcolorbox}
 
 We would like to clarify something in order to respond to this point. The primary focus of this paper is the r-process enhancement of Pop II stars due to a NSM. We are not explicitly focused on the physical properties of the first galaxies. The interesting thing about this scenario, is that if a NSM occurs early in the star formation history of a galaxy, the r-process material that is produced during the merging event can end up in the next generation of stars, like the stars in Ret II. This is precisely what we were investigating. We would like to be able to say something about how the NSM parameters correlate with different Pop II star formation characteristics, but given our small sample size, and the intrinsic randomness of star formation that makes the simulations so different from one another, we cannot say with certainty how the NSM model parameters might affect different trends we may see initially. This is the last bullet point in our conclusion. 
 
-\textbf{(DS to-do)} We have emphasized the uniqueness of NSMs at this early point in galaxy formation in SECTION.
-
-\textbf{DS Notes:}
-\begin{itemize}
-    \item I feel like the main thing that makes NSM unique is their production of r-process elements (along with the effects of a kilonova, but maybe we don't mention that?). One of the main points is that NSMs can produce r-process enhanced stars, but also that the exact feedback mechanisms that occur appear to drastically affect results (last bullet point in conclusions). So we cannot pick apart the impacts of NSM on the physical properties of the first galaxies with Pop II star formation -- this was not something that we were trying to address really at all?
-    \item \jhw{I agree that the primary focus is the r-process enhancement and not the energetics.  This is especially true because they will happen later in the halo's evolution when the mass is greater and potential is deeper, making its effect lesser than Pop III feedback and then Pop II feedback that has a large effect primarily due to the larger amount of stars that form.  You can take the Pop III stellar masses from our 2020 paper and estimate the amount of energy released in radiation and SNe and show that it's much greater than a kilonova.  This would be a useful comparison to add to the discussion.}
-\end{itemize}
+We have emphasized the uniqueness of NSMs at this early point in galaxy formation in the Introduction.
 
 \begin{tcolorbox}[colback={lightgray}] 
     5)      Considerations about the simulation results are not enough. For example, in Sec. 3.2, the authors say, “The Pop II stellar mass follows a relatively similar trend in each run, but the NSM runs end with larger Pop II stellar masses as compared to the original run.” Why do NSMs induce the larger Pop II stellar masses? Please describe the physical reasons because it is complicated due to a combination of more metal enrichment and gas blowout.
@@ -89,12 +76,7 @@ We would like to clarify something in order to respond to this point. The primar
 
 Thank you for this point. We agree that the question you pose is a good one. Why does the NSM lead to larger Pop II stellar masses? You are correct that this is a complicated question to answer. The cause of these differences is difficult to determine due to the nature of the simulations. We discuss this at the beginning of our Discussion section. To summarize briefly here, between simulations, stars will not necessarily form in the same places, at the same times, and with the same masses. Because of this, it is extremely difficult to trace the butterfly effect of where the differences between simulations really stem from. We must defer to a deeper study on these differences which will be submitted later. This paper primarily focuses on the r-process enrichment of material early in the star formation history of a galaxy.
 
-\textbf{DS Notes:}
-\begin{itemize}
-    \item Yes, this is a good question and one that I thought we made pretty clear. The answer to this is ``I don't know''. There are a lot of details to pick through in these simulations, and making comparisons across the simulations is a complicated task. Because we don't have a large sample size to study, it's hard to say anything conclusive about how the NSM might affect the Pop II stellar masses, and whether other star formation and feedback is affecting it as well. This is a question we are continuing to explore. In this paper, we are simply reporting on the results.
-    \item \jhw{Yes, we should tell the referee that the causes of these diffenences are difficult to determine and that we will defer to a deeper study to a later paper because this paper primarily focuses on the enrichment.}
-    \item We did find that NSM runs have higher cold gas mass fractions at late times. This could be one possible explanation for this.
-\end{itemize}
+We have included a sentence in the Discussion to alert the reader that studies are ongoing and a deeper study is required to answer these type of questions.
 
 \begin{tcolorbox}[colback={lightgray}]
     Minor comments:
@@ -113,16 +95,14 @@ We apologize for this, the caption was correct, but the label in the plot was wr
     8)      Purple lines in Figures 3, 5, and 8 show “Hyp.”. What is the meaning of Hyp.?
 \end{tcolorbox}
 
-We apologize for that confusion. ``Hyp.'' stood for ``hypernova'' which is how the original Pop III star ends its life. To keep things simple, we have changed that in the plots to say ``OG'' to make it clear that those lines correspond to the original run with no NSM.  \jhw{Did you refer to the OG simulation as the original run in the caption?  We should explicitly state this for non-native speakers and boomers.} (DS: Just updated the first caption including ``OG'' to say what that is!)
+We apologize for that confusion. ``Hyp.'' stood for ``hypernova'' which is how the original Pop III star ends its life. To keep things simple, we have changed that in the plots to say ``OG'' to make it clear that those lines correspond to the original run with no NSM.
 
 \begin{tcolorbox}[colback={lightgray}]
     9)      The authors show the coexistence of Pop II and III stars in the first galaxies. Recent theoretical studies showed similar results (Riaz et al. 2022, ApJL, 937, L6; Yajima et al., arXiv2211.12970). It would be good to discuss the mass fraction and distribution of Pop III stars in the first galaxies with the previous works. 
 \end{tcolorbox}
 
-Thank you for this suggestion. You are correct that we see similar results! 
+Thank you for this suggestion. You are correct that we see similar results! We have added this short comparison to the discussion section. We are leaving the figures we made to make the comparison in this report, but we are electing to not add more plots to the paper.
 
-\textbf{(DS to-do:)} We are investigating the case where Pop III and Pop II stars coexist with one another for a brief period of time. 
-\textbf{DS Notes:}
 \begin{figure}[h]
     \centering
     \subfloat[\centering Energy Variation]{{\includegraphics[width=0.4\textwidth]{plots/eng_pop3_ratio.pdf} }}%
@@ -140,19 +120,6 @@ Thank you for this suggestion. You are correct that we see similar results!
     \caption{The total stellar mass of both Pop III and Pop II stars as a function of redshift. The solid lines are the total stellar masses of Pop III stars, and the dashed lines are total stellar masses of Pop II stars.}%
     \label{fig:ratio}%
 \end{figure}
-
-\begin{itemize}
-    \item Riaz+22: compare with their Figure 1 and 3 (https://iopscience.iop.org/article/10.3847/2041-8213/ac8ea6/meta)
-    \begin{itemize}
-        \item Re. Figure 1: Looking at the redshift range between 10 and 20, and comparing with their halo masses between $10^7 - 10^9 M_\odot$ since this is the closest out halo gets to by the end of the simulation, we do see much higher stellar masses compared to them. For example, at z = 10, they see $10^3 - 10^5 M_\odot$ for Pop II stars and $10^1 - 10^2 M_\odot$ for Pop III stars. In our simulations at $z = 10$, we see a few$\times 10^4 M_\odot$ for Pop II stars, consistent with their results, and $\sim10^{3} M_{\odot}$ for Pop III stars, which is certainly larger than Riaz+22. However, they do give some generous ranges for the Pop II and Pop III stellar masses, so our results are not incompatible with Riaz+22.
-        \item Re. Figure 3: This figure is very similar to the one from Yajima+23. We do see similar ratios overall (see Figure \ref{fig:ratio} above).
-    \end{itemize}
-    \item Yajima+23: compare with their Figure 4, third bullet point in their conclusion (https://arxiv.org/pdf/2211.12970.pdf)
-    \begin{itemize}
-        \item Re: Figure 4. I have made this same plot for our work. We have slightly lower values compared to Yajima. For all variation runs, for a stellar mass of $\sim10^{4.5} M_\odot$, we see a Pop III mass ratio of about $\sim10^{-1.5}$, as compared to Yajima's results of $\sim10^{-1}$. They have considerable scatter for their $z = 10$, 11, and 12 data. Certainly we see the same trend as them, as stellar mass increases, the ratio of Pop III stellar mass to total stellar mass decreases. We do see similar values at our maximum stellar mass value of $\sim10^{5.5} M_\odot$ having a mass ratio of $\sim10^{-2.25}$. An important thing to consider in this comparison is the much higher halo mass of their main halos. They look at a halo that grows to $5 \times 10^{11} M_\odot$ by $z = 9.5$, whereas our halo gets to $\sim2 \times 10^{8} M_\odot$ at $z = 10$ (see Figure \ref{fig:ratio} above).
-        \item Based on these results, we certainly agree with their third bullet point. In general, the mass fraction of Pop III stars is less than 0.01 for halos with stellar masses $> 10^{4} M_\odot$ 
-    \end{itemize}
-\end{itemize}
 
 We again thank the referee for the insightful review that helped
 improve our paper.
