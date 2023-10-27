@@ -9,6 +9,15 @@
 \usepackage{tcolorbox}
 \usepackage{natbib}
 \usepackage{subfig}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks,
+    citecolor=blue,
+    filecolor=black,
+    linkcolor=blue,
+    urlcolor=blue
+}
+\usepackage{url}
 
 \input macros.tex
 
@@ -29,14 +38,24 @@ The authors have revised the manuscript based on some of my comments. The curren
 We thank the referee for returning comments back to us. We will address the issues below and have boldfaced any changes made to the manuscript.
 
 \begin{tcolorbox}[colback={lightgray}]
-1) For now, there is no evidence that neutron stars originated from Population III stars occurred within 100 Myr. In my previous report, I requested the authors to add information about the binary systems to induce the neutron star mergers within a very short time scale. Merely referring to Simon et al. (2023) is insufficient. Modeling the star formation history based on the color-magnitude diagram involves a large error, which cannot be evidence of the neutron star merger originated from Population III stars with the short time scale. Also, they just suggested r-process occurred within 500 Myr in which a lot of Population II stars can form and its stellar mass can be much larger than Population III stars. I understand some previous models considered the merger parameters extended to the short time scale. However, they did not provide a strong constraint in which Pop III neutron stars must merge within < 100 Myr. In dense star clusters, the angular momentum of binary systems can be lost via three-body interaction, leading to mergers within a short time scale. On the other hand, the short-time scale merger of a pure binary system sounds very difficult. I would like to request that the authors will explain what kind of binary systems can induce the NS-NS merger within 10-100 Myr and how frequently such binary systems are likely to form.
+1) For now, there is no evidence that neutron stars originated from Population III stars occurred within 100 Myr. In my previous report, I requested the authors to add information about the binary systems to induce the neutron star mergers within a very short time scale. Merely referring to Simon et al. (2023) is insufficient. Modeling the star formation history based on the color-magnitude diagram involves a large error, which cannot be evidence of the neutron star merger originated from Population III stars with the short time scale. Also, they just suggested r-process occurred within 500 Myr in which a lot of Population II stars can form and its stellar mass can be much larger than Population III stars. I understand some previous models considered the merger parameters extended to the short time scale. However, they did not provide a strong constraint in which Pop III neutron stars must merge within $<$100 Myr. In dense star clusters, the angular momentum of binary systems can be lost via three-body interaction, leading to mergers within a short time scale. On the other hand, the short-time scale merger of a pure binary system sounds very difficult. I would like to request that the authors will explain what kind of binary systems can induce the NS-NS merger within 10-100 Myr and how frequently such binary systems are likely to form.
 \end{tcolorbox}
 
+\noindent\textbf{JHW notes}
+\begin{itemize}
+  \item The intro of \href{https://ui.adsabs.harvard.edu/abs/2019ApJ...878L..12S/abstract}{Safarzadeh \& Berger (2019)} has some good information about constraining the minimum merger time.  The merger time distribution can be modeled as a power-law $dN/dt_{\rm merge} \propto t^\Gamma$, where $\Gamma$ is between --1.5 and --1.  This comes from the initial binary separation distribution, which is steeper if the binary goes through a common envelope phase, meaning that there will be more close binaries in this case.
+  \item Also see \href{https://arxiv.org/abs/1812.10065}{Belczynski et al. (2018)}, especially their Figures 7--10.  There aren't many delay times below 100 Myr, but it's non-zero.   In this paper, they define the delay time, starting at the stellar binary formation, not the NS formation.  The stellar lifetimes set the minimum value ($\sim 10$ Myr) in their delay time distributions.  Reading Section 4.1, the models with lower minimum times have small (models NN1, NN6) or zero (model NN13) NS natal kicks after the NS is formed.  This paper states that these are extreme assumptions that require a very high common envelope efficiency, but go with them for comparison.  I'm not sure whether this paper was even published, but we can still cite it.
+  \item I would look for more references on the minimum time constraints, not just about Ret II.  But we could argue that in particular cases where there has been a common envelope phase, one would except the resulting NS binary to have a small separation and thus merger time.  Also I would look in the papers that we've referenced so far to see whether the delay time is defined as the time between SF $\rightarrow$ NSM or NS formation $\rightarrow$ NSM.  This only adds 10-20 Myr to the delay time, but it would make our 10 Myr delay times more reasonable.
+\end{itemize}
 
 \begin{tcolorbox}[colback={lightgray}]   
-    The authors consider the NS-NS mergers originated only from Population III stars. I understand the authors investigate an ideal case. However, the motivation of this work is to understand the origin of r-process enhanced stars in nearby dwarf galaxies. In considering the long-time history of galaxies, we cannot avoid the contribution from Population I/II stars. The authors should discuss this more carefully. Are there any possibilities that we can observe evidence of the metal enrichment solely from Population III stars? Simon et al (2023) indicated that 80% of stars formed in the early Universe. Therefore, if it is true, stars of approximately 3000 solar masses were formed in that era. Is the contribution from Population III stars significant?
+    The authors consider the NS-NS mergers originated only from Population III stars. I understand the authors investigate an ideal case. However, the motivation of this work is to understand the origin of r-process enhanced stars in nearby dwarf galaxies. In considering the long-time history of galaxies, we cannot avoid the contribution from Population I/II stars. The authors should discuss this more carefully. Are there any possibilities that we can observe evidence of the metal enrichment solely from Population III stars? Simon et al (2023) indicated that 80\% of stars formed in the early Universe. Therefore, if it is true, stars of approximately 3000 solar masses were formed in that era. Is the contribution from Population III stars significant?
 \end{tcolorbox}
 
+\noindent\textbf{JHW notes}
+\begin{itemize}
+  \item This is a fair point.  The only stars that will be solely enriched by Pop III stars would be the second generation of stars whose birth gas hasn't been enriched by metal-enriched stars.  This would be the initial starburst of the galaxy, which should be extremely metal-poor $[Z/H] \sim -3$  Of those 80\% of the star formation in the early universe, we could use some star formation histories from the Birth of a Galaxy simulations to determine what fraction form in the initial burst.
+\end{itemize}
 
 \begin{tcolorbox}[colback={lightgray}] 
 Ret II should be written after showing the formal name, “Reticulum II”.
