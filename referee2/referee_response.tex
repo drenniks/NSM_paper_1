@@ -57,8 +57,12 @@ We thank the referee for returning comments back to us. We will address the issu
   \item \href{https://www.aanda.org/articles/aa/pdf/2016/05/aa28193-16.pdf}{Mennekens et al. 2016}: Their delay time is defined as the time between the formation of the binary system and the eventual formation of a NS-NS binary system plus the merger time.
   \item \href{https://arxiv.org/pdf/2106.13383.pdf}{Jeon et al. 2019}: They run zoom-in simulations studying the origin of MP r-II stars in UFDs. They assume that the merger occurs 5 Myr after the binary neutron star system forms, corresponding to the fast-merging channel.
   \item Simon et al. 2023: They define the delay time as the time between the formation of the first stars and r-process nucleosynthesis and find for Ret II, it must be less than 500 Myr.
-  \item The referee is really focused on neutron stars from Pop III stars. From what I've seen, there isn't a lot of work on neutron stars from Pop III stars and what the formation of those systems looked like. Based on some of the work we have both cited, it seems as if there is a fast-formation channel for neutron stars if they have low natal kicks and undergo a common envelope phase. Our response here may be along the lines of "it is possible (low natal-kicks, common envelope phase), but it is likely very rare" and we can cite some merger rates from Belczynski if they provide any. 
+  \item The referee is really focused on neutron stars from Pop III stars. From what I've seen, there isn't a lot of work on neutron stars from Pop III stars and what the formation of those systems looked like. Based on some of the work we have both cited, it seems as if there is a fast-formation channel for neutron stars if they have low natal kicks and undergo a common envelope phase. Our response here may be along the lines of "it is possible (low natal-kicks, common envelope phase), but it is likely very rare" and we can cite some merger rates from Belczynski if they provide any.
 \end{itemize}
+
+\noindent\textbf{JHW note (07 Dec 2023)}
+
+I agree that we should add a sentence or two at the end of the next to last paragraph in Section 2.2, saying that a short delay time is possible yet rare if the system has a low natal kick and undergoes a common envelope phase, and cite those works.  I really hope that the referee is appeased by this.
 
 \begin{tcolorbox}[colback={lightgray}]   
     The authors consider the NS-NS mergers originated only from Population III stars. I understand the authors investigate an ideal case. However, the motivation of this work is to understand the origin of r-process enhanced stars in nearby dwarf galaxies. In considering the long-time history of galaxies, we cannot avoid the contribution from Population I/II stars. The authors should discuss this more carefully. Are there any possibilities that we can observe evidence of the metal enrichment solely from Population III stars? Simon et al (2023) indicated that 80\% of stars formed in the early Universe. Therefore, if it is true, stars of approximately 3000 solar masses were formed in that era. Is the contribution from Population III stars significant?
@@ -66,14 +70,18 @@ We thank the referee for returning comments back to us. We will address the issu
 
 \noindent\textbf{JHW notes}
 \begin{itemize}
-  \item This is a fair point.  The only stars that will be solely enriched by Pop III stars would be the second generation of stars whose birth gas hasn't been enriched by metal-enriched stars.  This would be the initial starburst of the galaxy, which should be extremely metal-poor $[Z/H] \sim -3$  Of those 80\% of the star formation in the early universe, we could use some star formation histories from the Birth of a Galaxy simulations to determine what fraction form in the initial burst.
+  \item This is a fair point.  The only stars that will be solely enriched by Pop III stars would be the second generation of stars whose birth gas hasn't been enriched by metal-enriched stars.  This would be the initial starburst of the galaxy, which should be extremely metal-poor $[Z/H] \sim -3$.  Of those 80\% of the star formation in the early universe, we could use some star formation histories from the Birth of a Galaxy simulations to determine what fraction form in the initial burst.
 \end{itemize}
 
-\noindent\textbf{DS notes}
+\noindent\textbf{DS notes {(\color{purple} JHW responses})}
 \begin{itemize}
   \item I see this point, but I am also thinking that we could revise some of our wording to say that we are only focused on the r-process enrichment from neutron star mergers. In that sense, we are seeing the "lower bound" of r-process enrichment for this type of system.
+  \item {\color{purple} Agreed that this can be addressed by some rewording, saying that we aren't focused on the complete r-process enrichment history, but only the beginning, providing a lower limit.}
   \item And are you talking about finding what fraction of the total amount of stars form in our galaxy in the initial burst? 
-  \item Also, it's not like we aren't considering metal enrichment form Pop III and Pop II stars, we just don't call the metallicity fraction enriched by those stars "r-process". 
+  \item {\color{purple} I thought about this some more, and I don't think we should discuss the stellar mass formed in the early Universe because the galaxy hasn't stopped forming stars.  The initial burst (looks like a single star particle with $M \simeq 10^3 M_\odot$) wouldn't be the right value to use because it's shortly after Pop III forms at $t \sim 200$ Myr and is not r-process enhanced.  Also, the final mass wouldn't be valid either because the stars forming at late times could be r-enhanced by Pop II stars.}
+  \item {\color{purple} But as a discussion point, we could use that 3000\Ms value given by the referee and convert it into a stellar mass at these redshifts.  I've pushed a Jupyter notebook that calculates what fraction of these stars would still be alive today, and it's $\sim$40\%.  So the star formation event that formed those 3000\Ms low-mass stars is 7500\Ms, which is right in the middle of our stellar masses. This is a little hand wavy, but I think it's good to point out.}
+  \item Also, it's not like we aren't considering metal enrichment form Pop III and Pop II stars, we just don't call the metallicity fraction enriched by those stars "r-process".
+  \item {\color{purple} Exactly.  I think we should emphasize this fact in the response, but I don't think we need to add anything to the paper about it.}
 \end{itemize}
 
 \begin{tcolorbox}[colback={lightgray}] 
